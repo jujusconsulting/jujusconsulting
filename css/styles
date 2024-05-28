@@ -1,0 +1,61 @@
+/* Colors */
+:root {
+    --light-green: #d3e6cc;
+    --black: #000000;
+    --pink: #f4b7d1;
+    --green: #83a875;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-green);
+    color: var(--black);
+}
+
+header {
+    background-color: var(--pink);
+    color: var(--black);
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--green);
+    color: var(--black);
+    text-align: center;
+    padding: 10px 0;
+}
